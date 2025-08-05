@@ -16,7 +16,7 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           message: |
             You can check this code at CodeSandbox with the link  
-            https://codesandbox.io/p/sandbox/hw7-gjr5wg?file=%2Fsrc%2Fscript.js
+            https://codesandbox.io/p/sandbox/hw7-gjr5wg
 
 
 
