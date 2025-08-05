@@ -1,26 +1,22 @@
 name: Add codesandbox link
 
-on:
-    pull_request:
-        types: [opened]
-    pull_request_target:
-        types: [opened]
+'on':
+  pull_request:
+    types: [opened]
 
 jobs:
-    codesandox-commet:
-        name: Add codesandbox link comment
-        runs-on: ubuntu-latest
-        permissions:
-            contents: write
-            pull-requests: write
-            repository-projects: write
-        steps:
-            uses: mshick/add-pr-comment@v2
-            env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            with:
-                message:
-                    You can check this code at CodeSandbox with the link
-                    https://codesandbox.io/p/sandbox/hw7-gjr5wg?file=%2Fsrc%2Fscript.js
+  codesandbox-comment:
+    name: Add CodeSandbox link comment
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: mshick/add-pr-comment@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            You can check this code at CodeSandbox with the link  
+            https://codesandbox.io/p/sandbox/hw7-gjr5wg?file=%2Fsrc%2Fscript.js
 
-                    
+
+
