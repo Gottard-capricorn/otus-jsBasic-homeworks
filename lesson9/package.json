@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/Gottard-capricorn/otus-jsBasic-homeworks#readme",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@types/jest": "^30.0.0",
-    "jest": "^30.0.5"
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5"
   }
 }
