@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "В данной директории пытаюсь повторить то, что было в занятии 9. А именно:\r 1) Создание src директории\r 2) Создание директории node_modules\r 3) Создание .gitignore файла\r 4) Инициализация node packet manager (npm)\r 5) Настройка package.json и package.lock.json файлов\r 6) Установка jest зависимостей\r 7) Установка babel библиотеки\r 8) Установка и настройка ESLint\r 9) Установка и настройка Husky\r 10) Установка и настройка sanity check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gottard-capricorn/otus-jsBasic-homeworks.git"
+  },
+  "author": "gottard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gottard-capricorn/otus-jsBasic-homeworks/issues"
+  },
+  "homepage": "https://github.com/Gottard-capricorn/otus-jsBasic-homeworks#readme"
+}
