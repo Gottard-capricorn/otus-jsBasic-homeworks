@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Gottard-capricorn/otus-jsBasic-homeworks/issues"
   },
-  "homepage": "https://github.com/Gottard-capricorn/otus-jsBasic-homeworks#readme"
+  "homepage": "https://github.com/Gottard-capricorn/otus-jsBasic-homeworks#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5"
+  }
 }
