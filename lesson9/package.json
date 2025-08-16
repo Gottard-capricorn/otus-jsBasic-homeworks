@@ -4,7 +4,8 @@
   "description": "В данной директории пытаюсь повторить то, что было в занятии 9. А именно:\r 1) Создание src директории\r 2) Создание директории node_modules\r 3) Создание .gitignore файла\r 4) Инициализация node packet manager (npm)\r 5) Настройка package.json и package.lock.json файлов\r 6) Установка jest зависимостей\r 7) Установка babel библиотеки\r 8) Установка и настройка ESLint\r 9) Установка и настройка Husky\r 10) Установка и настройка sanity check",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "@types/jest": "^30.0.0",
     "babel-jest": "^30.0.5",
     "eslint": "^9.33.0",
+    "eslint-plugin-jest": "^29.0.1",
     "globals": "^16.3.0",
     "jest": "^30.0.5",
     "jest-environment-jsdom": "^30.0.5"
